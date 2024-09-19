@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "ml-api"
+version = "0.1.0"
+description = ""
+authors = ["yahoryakubovich <yahor.yakubovich@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.115.0"
+sqlalchemy = "^2.0.35"
+asyncpg = "^0.29.0"
+alembic = "^1.13.2"
+pre-commit = "^3.8.0"
+pydantic-settings = "^2.5.2"
+uvicorn = "^0.30.6"
+fastapi-cache2 = {extras = ["redis"], version = "^0.2.2"}
+loguru = "^0.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
