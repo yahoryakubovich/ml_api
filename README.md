@@ -76,7 +76,7 @@
 
 2. Клонируйте репозиторий проекта:
    ```bash
-   https://github.com/yahoryakubovich/ml_api.git
+   git clone https://github.com/yahoryakubovich/ml_api.git
    cd ml_api
 
 3. Запустите проект с помощью Docker Compose:
